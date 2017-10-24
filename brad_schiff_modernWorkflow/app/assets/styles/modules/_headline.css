@@ -1,0 +1,41 @@
+.headline {
+  font-weight: 300;
+  color: $mainBlue;
+  font-size: 1.7rem;
+  @mixin atSmall {
+    font-size: 2.875rem;
+  }
+  &--center {
+    text-align: center;
+  }
+
+  &--orange {
+    color: $mainOrange;
+  }
+
+  &--small {
+    font-size: 1.2rem;
+    @mixin atSmall {
+      font-size: 1.875rem;
+    }
+  }
+
+/*apparently text-align won't fix this, you need margin auto */
+  &--narrow {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--light{
+    font-weight: 100;
+  }
+
+  &--b-margin-small {
+    margin-bottom: .5em;
+  }
+
+  &--b-margin-large {
+    margin-bottom: 1.6em;
+  }
+}
