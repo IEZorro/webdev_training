@@ -1,0 +1,40 @@
+.small-pic {
+	width:250px,height:250px;
+
+}
+
+.background-gray {
+	background-color:gray;
+	font-size: 15px;
+	text-align: center;
+	margin: 20px;
+}
+
+.background-image {
+	background-color:rgb(90,35,50);
+	font-size: 50px;
+}
+
+.construction-strip {
+	background: url(IMG_0473.jpg);
+}
+
+#contact-form {
+	border: 2px solid #f1f1f1;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.site-title {
+	float: left;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+	margin: 0;
+	margin: 5px;
+}
+
+.bigtext {
+	font-family:arial;
+	font-size:70px;
+}

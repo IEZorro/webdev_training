@@ -1,0 +1,141 @@
+#Title {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+#First-Paragraph {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+#Date {
+	color: #3498db;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+}
+
+/*All this can be done with the body tag at the bottom
+#text-wrap {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#gray-border {
+	border: 25px solid #bdc3c7;
+}
+
+#post-border {
+	padding: 15px;
+
+p {
+	font-family: "Source Sans Pro", serif;
+	font-weight: 600;
+}
+}*/
+
+body {
+	max-width: 100%;
+	padding: 20px;
+	border: 25px solid #bdc3c7;
+	margin: 20px auto;
+	font-family: 'Source Sans Pro', serif;
+	font-weight: 600;
+}
+
+
+
+hr.style17 {
+	color: #bdc3c7;
+}
+
+
+
+
+/* For First Photo Website
+img {
+	width: 30%; 
+	float: left;
+	margin: 1.6%;
+}
+
+p {
+	font-family: "Raleway";
+	margin-left: 1.6%;
+	font-size: 25px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f1f1f1; 
+	width: 30%;
+}
+*/
+
+
+
+
+
+
+.Center-Square {
+	border: 3px solid black;
+	width: 150px; height: 150px;	
+}
+
+.Center-Space {
+	width: 150px; height: 150px;
+	border: 3px solid white;
+}
+
+
+
+.center {
+	margin: auto;
+}
+
+
+.Top-Bottom {
+	width:150px; height: 150px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+
+.Left-Right {
+	width: 150px; height: 150px;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+}
+
+
+
+
+.Bottom-Right {
+	width: 150px; height: 150px;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+}
+
+.Left-Bottom {
+	width: 150px; height: 150px;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.Top-Right {
+	width: 150px; height: 150px;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+}
+
+.Top-Left {
+	width: 150px; height: 150px;
+	border-top: 3px solid black;
+	border-left: 3px solid black;
+}
+
+.jumbostyle {
+	background: url('http://gazettereview.com/wp-content/uploads/2017/03/tailopez1.jpg') no-repeat center center;
+	text-align: center;
+}
+
+
+
