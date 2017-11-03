@@ -62,13 +62,27 @@
       background:black;
       position: absolute;
       top:50%;
+      /* this will change pivot point to the center end, change time to 12
+      make transition .05 seconds, and make the animation of the tick unique */
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transform: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
   </style>
 
   <script>
-
-
+    function setDate(){
+      // gets the real current time 
+      const now = new Date();
+      //gets seconds from these times
+      const seconds = now.getSeconds();
+      // essentially is second  * 6 to get degree within 360
+      const secondDegrees = (seconds / 60) * 360;
+      console.log(secondDegrees)
+    }
+    setInterval(setDate, 1000);
   </script>
 </body>
 </html>
